@@ -27,9 +27,9 @@
 
 | Temperatura | Resposta 1 | Resposta 2 | Resposta 3 |
 | :- | :- | :- | :- |
-| 0 | | | |
-| 0.8 | | | |
-| 1.5 | | | |
+| 0 | Estratègia|Estratègia |Estratègia |
+| 0.8 |Estratègia |Il·lustració |Il·lustració |
+| 1.5 |Impecablement |Il·lustració |Il·lusió |
 
 ## Segona prova: una pregunta amb una sola resposta
 
@@ -43,24 +43,24 @@
 
 | Temperatura | Resposta 1 | Resposta 2 | Resposta 3 |
 | :- | :- | :- | :- |
-| 0 | | | |
-| 1.5 | | | |
+| 0 |París|París |París |
+| 1.5 |París |París |París |
 
 ## Preguntes
 
 1. Mireu la taula 1. Les tres respostes amb temperatura 0 són iguals? Per què? Compteu les lletres de la paraula: en té més de 10? Que sempre surti la mateixa paraula vol dir que sigui correcta?
 
-   **Resposta:**
+   **Resposta:** Si, les tres respostes a temperatura 0 són iguals, en la temperatura 0 les paraules tenen totes 10 lletres.  Que sempre surti la mateixa no vol dir que sigui correcte.
 
 2. Què passa quan pugeu la temperatura? Surten paraules diferents? N'hi ha alguna que no tingui més de 10 lletres o que no sembli una paraula real?
 
-   **Resposta:**
+   **Resposta:** A temperatura 0.8 i 1.5 està la paraula Il·lustració amb 12 lletres, i Il·lusió amb 9 lletres. Tot dues paraules son reals.
 
 3. Mireu la taula 2. Les respostes sobre la capital canvien tant com les de la paraula quan puja la temperatura? Per què creieu que la temperatura hi té tan poc efecte? (Pista: quantes respostes correctes té cada pregunta? La temperatura només dona varietat quan el model dubta entre diverses opcions.)
 
-   **Resposta:**
+   **Resposta:** En aquest cas l'augment de la temperatura no modifica la resposta, ha donat en tot moment París com resposta. Crec que això pasa quan la connexió entre dues paraules, com França i capital donen un resultat molt favorable per la paraula París per tant el model no dubta.
 
 4. Amb les vostres paraules: què fa el paràmetre `temperature`?
 
-   **Resposta:**
+   **Resposta:** Quanta menys temperatura tingui configurada el model, triara més segur la opció més probable, en canvi si la temperatura és més alta, podria triar opcions menys probables.
 
